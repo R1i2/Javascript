@@ -48,7 +48,7 @@ for(var i=0;i<document.querySelectorAll(".drum").length;i++)
     document.querySelectorAll(".drum")[i].addEventListener("click",function(){
         makeSound(this.textContent)});
     document.querySelectorAll(".drum")[i].addEventListener("click",function(){
-        makeAnimatuion(this.textContent);
+        makeAnimation(this.textContent);
     })
 }
 document.addEventListener("keydown",function(event){
